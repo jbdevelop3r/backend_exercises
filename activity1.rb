@@ -1,5 +1,13 @@
-puts("hello world")
-puts("ruby start")
+puts "activity 1"
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+numbers.each do |n| 
+    puts n
+end
+
+
+puts "activity 2"
 
 h1 = { a: 1, b: 2, c: 3, d:4 }
 
@@ -9,11 +17,13 @@ h1[:e] = 5
 
 puts h1
 
-puts "item 1"
+contact_data = [["john@email.com", "123 Main st.", "555-123-4567"],
+            ["avion@email.com", "404 Not Found Dr.", "123-234-3454"]]
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+contacts = {"John Cruz" => {}, "Avion School" => {}}
 
-numbers.each do |n| 
-    puts numbers
-
-end
+# Expected output:
+#  {
+#    "John Cruz"=>{:email=>"john@email.com", :address=>"123 Main st.", :phone=>"555-123-4567"},
+#    "Avion School"=>{:email=>"avion@email.com", :address=>"404 Not Found Dr.",  :phone=>"123-234-3454"}
+#  }
