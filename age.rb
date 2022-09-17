@@ -1,3 +1,5 @@
+puts "activity"
+
 def age_cheker 
     puts "How old are you?"
     age = gets.chomp.to_i
