@@ -11,7 +11,7 @@ puts "activity 2"
 
 h1 = { a: 1, b: 2, c: 3, d:4 }
 
-puts h1[:a]
+puts h1[:b]
 
 h1[:e] = 5
 
@@ -27,3 +27,11 @@ contacts = {"John Cruz" => {}, "Avion School" => {}}
 #    "John Cruz"=>{:email=>"john@email.com", :address=>"123 Main st.", :phone=>"555-123-4567"},
 #    "Avion School"=>{:email=>"avion@email.com", :address=>"404 Not Found Dr.",  :phone=>"123-234-3454"}
 #  }
+
+puts "activity 3"
+
+contacts["John Cruz"] = {email: contact_data[0][0], address: contact_data[0][1], phone: contact_data[0][2]}
+
+contacts["Avion School"] = {email: contact_data[1][0], address: [1][1], phone: contact_data[1][2]}
+
+puts contacts
