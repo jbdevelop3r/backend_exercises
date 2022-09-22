@@ -9,7 +9,7 @@ class Student
     end
 end
 
-info = Student.new("Cute", 16, "123 street")
+info = Student.new("Justine", 16, "123 street")
 
 info.s_age = 50 #setter example
 
