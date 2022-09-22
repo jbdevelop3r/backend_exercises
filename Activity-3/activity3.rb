@@ -1,5 +1,5 @@
 puts "Enter a number"
-input_number = gets.chomp.to_i
+num = gets.chomp.to_i
 
 def check_square(number)
     for x in (0..number) do
@@ -10,4 +10,4 @@ def check_square(number)
         end
     end
 end
-check_square(input_number)
+check_square(num)
