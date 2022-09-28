@@ -10,12 +10,12 @@ CREATE TABLE students (
 SELECT * FROM students;
 
 INSERT INTO students (id, first_name, middle_name, last_name, age, location) VALUES
-(1, 'Justine', 'Padua', 'Banogon', 30, 'Pangasinan'),
-(2, 'Shawn', 'Go', 'Went', 26, 'Quezon City'),
-(3, 'Gene', 'Alvarez', 'Cruz', 27, 'Manila'),
-(4, 'Neves', 'Montoya', 'Santos', 19, 'Laguna'),
-(5, 'Vince', 'Larisma', 'Mendes', 20, 'Davao'),
-(6, 'Dave', 'Libatique', 'Sison', 28, 'Baguio');
+    (1, 'Justine', 'Padua', 'Banogon', 30, 'Pangasinan'),
+    (2, 'Shawn', 'Go', 'Went', 26, 'Quezon City'),
+    (3, 'Gene', 'Alvarez', 'Cruz', 27, 'Manila'),
+    (4, 'Neves', 'Montoya', 'Santos', 19, 'Laguna'),
+    (5, 'Vince', 'Larisma', 'Mendes', 20, 'Davao'),
+    (6, 'Dave', 'Libatique', 'Sison', 28, 'Baguio');
 
 UPDATE students SET first_name = 'Ivan', middle_name = 'Ingram', last_name = 'Howard', age = 25, location = 'Bulacan' WHERE ID = 1;
 
