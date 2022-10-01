@@ -8,4 +8,4 @@ def age_checker
     puts "In 30 years you will be: \n" + (age + 30).to_s
     puts "In 40 years you will be: \n" + (age + 40).to_s
 end
-    age_cheker 
+age_cheker 

@@ -2,10 +2,8 @@ def isogram(word)
     sample_word = word.downcase.split('')
     sample_word.each_with_index do |element, idx| 
         i = idx + 1
-        while i < sample_word.length 
+        while i < sample_word.length  
             return false if element == sample_word[i] 
-            #sample_word[i] = second value or letter
-            #element = first value or letter
             i += 1 
             end
         end
