@@ -25,13 +25,15 @@ INNER JOIN notes n on students.id = n.student_id;
 SELECT *
 FROM students 
 LEFT JOIN notes
-ON notes.id = student_id;
+ON students.id = notes.student_id;
 
 SELECT *
 FROM students 
 RIGHT JOIN notes
-ON notes.id = student_id;
+ON students.id = notes.student_id;
 
 SELECT * 
 FROM students
 FULL OUTER JOIN notes on students.id = notes.student_id;
+
+
