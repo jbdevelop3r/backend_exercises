@@ -18,6 +18,9 @@ INSERT INTO notes (id, body, student_id) VALUES
 	(508, 'weekend', 5),
 	(509, 'backend', NULL),
 	(510, 'discussion', NULL);
+	
+SELECT * FROM students
+INNER JOIN notes n on students.id = n.student_id;
 
 SELECT *
 FROM students 
