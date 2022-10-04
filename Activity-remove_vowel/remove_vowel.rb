@@ -4,10 +4,10 @@
 # p remove_vowels("This website is for losers LOL!")
 
 def remove_vowels(input)
-    vowels = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u']
-    input.length.times do |element|
-        if vowels.include? input[element]
-            input.slice!(element)
+    vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+    input.length.times do |i|
+        if vowels.include? input[i]
+            input.slice!(i)
         end
     end
     input
