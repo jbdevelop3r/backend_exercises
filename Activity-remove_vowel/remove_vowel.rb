@@ -1,3 +1,4 @@
+
 def remove_vowels(input)
     input.delete("aeiouAEIOU")
 end
