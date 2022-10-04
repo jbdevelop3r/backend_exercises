@@ -6,6 +6,8 @@ def unique_in_order(iterable)
   arr
 end  
 p unique_in_order('AAAABBBCCDAABBB')
+p unique_in_order('ABCCDD')
+
 
 
 
